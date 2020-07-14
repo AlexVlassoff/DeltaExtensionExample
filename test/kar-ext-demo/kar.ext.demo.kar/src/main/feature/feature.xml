@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="ru.cbr.delta">
+    
+    <feature name="ru.cbr.delta.ext.demo" description="Демонстрация независимой работы расширений" version="${project.parent.version}">
+    	<details>Пример простого расширения клиента Дельта</details>    
+        <bundle>mvn:ru.cbr.delta/kar.ext.demo.simple_page/${project.parent.version}</bundle>
+                        
+    </feature>
+    
+</features>

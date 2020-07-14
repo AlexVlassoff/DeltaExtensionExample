@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ru.cbr.delta</groupId>
+    <artifactId>kar.ext.demo</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <artifactId>kar.ext.demo.kar</artifactId>
+  <packaging>kar</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+ 	<build>
+  		<plugins>
+  				<plugin>
+  					<groupId>org.apache.karaf.tooling</groupId>
+  					<artifactId>karaf-maven-plugin</artifactId>
+  					<version>4.2.8</version>
+  					<extensions>true</extensions>
+  				</plugin>
+  		</plugins>
+  	</build>  
+  
+  <name>KAR Package Demo v.${project.parent.version}</name>
+</project>
