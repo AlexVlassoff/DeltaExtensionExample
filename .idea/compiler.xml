@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kar.ext.demo.kar" />
+        <module name="kar.ext.demo.simple_page" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kar.ext.demo" target="1.8" />
+      <module name="kar.ext.demo.kar" target="1.8" />
+      <module name="kar.ext.demo.simple_page" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

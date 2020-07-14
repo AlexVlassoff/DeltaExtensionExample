@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.iml" filepath="$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.kar/kar.ext.demo.kar.iml" filepath="$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.kar/kar.ext.demo.kar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.simple_page/kar.ext.demo.simple_page.iml" filepath="$PROJECT_DIR$/test/kar-ext-demo/kar.ext.demo.simple_page/kar.ext.demo.simple_page.iml" />
+    </modules>
+  </component>
+</project>
